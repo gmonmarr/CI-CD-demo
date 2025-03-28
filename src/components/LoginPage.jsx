@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { Paper, TextField, Button, Typography } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import Footer from './Footer.jsx';
-import { loginUser } from '../utils/tokenUtils';
+import { loginUser } from '../utils/tokenUtils.js';
 
 const LoginPage = ({ onLoginSuccess }) => {
   const [email, setEmail] = useState('');

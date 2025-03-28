@@ -8,7 +8,7 @@ import StandardImageList from './components/Contacto.jsx';
 import ResponsiveAppBar from './components/NavBar.jsx';
 import Footer from './components/Footer.jsx';
 import './App.css';
-import { getToken, isTokenValid } from './utils/tokenUtils';
+import { getToken, isTokenValid } from './utils/tokenUtils.js';
 
 function AppContent({ handleLogout, isTokenValidState, checkTokenValidity }) {
   const location = useLocation();
