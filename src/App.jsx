@@ -74,7 +74,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename = '/CI-CD-demo'>
       <AppContent
         handleLogout={handleLogout}
         isTokenValidState={isTokenValidState}
