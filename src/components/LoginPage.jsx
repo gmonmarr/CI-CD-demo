@@ -51,7 +51,7 @@ const LoginPage = ({ onLoginSuccess }) => {
       <Footer />
       <div>
         <Typography variant="h4" gutterBottom color='white' fontWeight={'bolder'}>
-          ¡Bienvenido!
+          ¡Saludos mucho gusto!
         </Typography>
       </div>
 
